@@ -1,0 +1,94 @@
+
+body {
+	background: #fff;
+	color: #6d6d6d;
+	font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	overflow-y: scroll
+}
+a {
+	text-decoration: none;
+	color: #399cbd;
+	-webkit-transition: opacity .3s ease,color .3s ease;
+	-moz-transition: opacity .3s ease,color .3s ease;
+	-o-transition: opacity .3s ease,color .3s ease;
+	transition: opacity .3s ease,color .3s ease
+}
+a: hover,a: focus {
+	color: #3d3d3d
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #3d3d3d;
+	margin: 0 0 .25em 0;
+	line-height: 1em
+}
+h1,h2 {
+	font-size: 4em;
+	font-weight: 400;
+	margin: 0 0 .5em 0
+}
+h1 span,h2 span {
+	color: #e35e35
+}
+h3 {
+	font-size: 2em;
+	font-weight: 700
+}
+h4 {
+	font-size: 1.25em;
+	font-weight: 400
+}
+h5,h6 {
+	font-size: 1em;
+	font-weight: 700
+}
+h1 a,h2 a,h3 a {
+	color: #3d3d3d
+}
+h1 a: hover,h1 a: focus,h2 a: hover,h2 a: focus,h3 a: hover,h3 a: focus {
+	color: #399cbd
+}
+
+
+#header {
+	z-index: 20000;
+	background: #454545;
+	color: #fff
+}
+body.fixed #header {
+	top: 0;
+	left: 0;
+	width: 100%
+}
+header a{
+	color:#f0591a;
+}
+#page {
+	width: 80%;
+	max-width: 960px;
+	margin: 5em auto;
+	font-size: 16px
+}
+#page-bottom {
+	clear: both
+}
+body.blog #page {
+	max-width: 800px
+}
+body.about #page {
+	max-width: 650px
+}
+
+
+.other-sizes{
+	padding:35px 15px;
+	font-size: 18px;
+	float:left;
+}
+.other-sizes li{float:left;width: 120px; list-style: none;}
+.other-sizes li.selected a{color:#f0591a;}
+.other-sizes li a{color:#fff;transition:.5s color;}
+.other-sizes li a:hover{color:#f0591a;}
+.close{float:right;width:200px;font-size: 20px;}
+.menu div{width:340px;float: left}
