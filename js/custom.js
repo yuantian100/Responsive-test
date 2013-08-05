@@ -36,10 +36,10 @@ $(document).ready(function () {
 			else if (w<300)
 			{
 				$('.enter').hide();
-				$('#webs').hide();
+				$('.web').hide();
 			}
 			else{
-				$('#webs').show();
+				$('.web').show();
 				$('.enter').show();
 			}
 		}
@@ -68,10 +68,10 @@ $(document).ready(function () {
 			else if (w<300)
 			{
 				$('.enter').hide();
-				$('#webs').hide();
+				$('.web').hide();
 			}
 			else{
-				$('#webs').show();
+				$('.web').show();
 				$('.enter').show();
 			}
 		}
